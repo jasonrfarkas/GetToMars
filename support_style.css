@@ -1,11 +1,21 @@
+body {
+	background-color:#1a1a1a;
+	color: white;
+	z-index: -1;
+
+}
+
 #modal {
 	position: absolute;
-    background-color: #fff;
+    background-color: white;
     width: 400px;
     height: 300px;
     margin: 35%;
+    bottom: -45%;
     border-radius: 5px;
     padding: 5px;    
+    color: black;
+    z-index: 1;
 }
 
 
@@ -17,7 +27,7 @@
     top: 0;
     background-color: rgba(0,0,0,.8);
     text-align: center;
-    z-index: -1;
+    z-index: 0;
 }
 
 img {
@@ -34,8 +44,6 @@ input {
     width: 200px;
 }
 
-#donate {
-}
 
 #donate-pic {
 	z-index: -2;
@@ -45,3 +53,38 @@ input {
 	float: left;
 }
 
+#social {
+	position: absolute;
+	float: left;
+	margin-top: 100px;
+	z-index: -1;
+}
+
+.icon {
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+#picTitle {
+	position: absolute;
+	margin-left: 700px;
+	bottom: 475px;
+	z-index: -1;
+}
+
+#pic {
+	width: 400px;
+	height: 400px;
+	margin-right: 100px;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+#call {
+	position: absolute;
+	margin-top: 300px;
+	z-index: -1
+}
