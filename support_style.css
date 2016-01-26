@@ -1,0 +1,22 @@
+.lightbox-outer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.8);
+	display: none;
+	text-align: center;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#modal {
+	background-color: #fff;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
