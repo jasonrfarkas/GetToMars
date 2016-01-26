@@ -1,4 +1,28 @@
+body{
+	background-color:#1a1a1a;
+}
 div.navDiv li{
 				text-decoration:none;
 				list-style-type: none
 			}
+			
+div.navDiv nav a{
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	float:right;
+	padding:10px;
+	margin-bottom:30px;
+}
+div.navDiv a:hover{
+	background-color:orange;
+}
+div.navDiv a{
+	color:green;
+}
+div.navDiv nav{
+	margin-right:100px;
+	border: black;
+	border-style:solid;
+	margin-bottom:100px;
+}

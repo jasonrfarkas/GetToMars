@@ -1,6 +1,5 @@
 body{
 	margin:75px;
-	//background-image: url("http://www.psdgraphics.com/file/stars.jpg");
 	background-color:#1a1a1a;
 }
 .bg{
@@ -46,26 +45,14 @@ h3{
 .newDiv{
 	clear:left;
 }
-nav a{
-	color:white;
-	font-size:25px;
-	text-decoration:none;
-	float:right;
-	padding:10px;
-	margin-bottom:30px;
-}
+
 a:hover{
 	background-color:orange;
 }
 a{
 	color:green;
 }
-nav{
-	margin-right:100px;
-	border: black;
-	border-style:solid;
-	margin-bottom:100px;
-}
+
 .astroPic{
 	float:right;
 	margin-right:55px;
