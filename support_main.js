@@ -3,9 +3,9 @@ $(document).ready(function(){
 	var image = $("#lightbox-image");
 	image.attr('src', imageURL);
 	center($("#modal"));
-	$(".lightbox-outer").show();
-	$(".lightbox-outer").click(function(){
-		$(".lightbox-outer").hide()
+	$(".lightbox-outer" ).click(function(){
+		$(".lightbox-outer").hide();
+		$("#modal").hide();
 	});
 
 	function center(modal){
