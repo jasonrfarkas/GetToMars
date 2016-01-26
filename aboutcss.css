@@ -1,0 +1,49 @@
+body{
+	margin:75px;
+	background-color: #1a1a1a;
+}
+
+.image{
+	float:left;
+	margin-right:15px;
+	margin-bottom:40px;
+}
+.firstP{
+	clear:right;
+}
+p{
+	color:white;
+	font-size: x-large;
+	text-align:left;
+	margin-right:100px;
+}
+h1{
+	color:orange;	
+    text-shadow: 1px 1px 1px #ccc;
+
+}
+.headerDiv{
+	clear:left;
+}
+.secondImg{
+	float:left;
+	margin-right: 15px;
+	margin-bottom:60pz;
+}
+nav a{
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	float:right;
+	padding:10px;
+	margin-bottom:30px;
+}
+a:hover{
+	background-color:orange;
+}
+nav{
+	margin-right:100px;
+	border: black;
+	border-style:solid;
+	margin-bottom:100px;
+}
