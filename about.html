@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
 		<link rel="stylesheet" type="text/css" href="aboutcss.css">
 		<link rel="stylesheet" type="text/css" href="navStyle.css">
 		<title>About</title>
 	</head>
 	
 	<body>
+	
 		<div class ="navDiv">
 		<nav>
 		<a href = "support_index.html">Support</a>
@@ -15,11 +18,19 @@
 
 		</nav>
 		</div>
+		<div id = "fixed_astro">
+		<img src = "http://www.mars-one.com/images/uploads/Astronaut_EVA2.png" />
+		</div>
+		<div class = "frontPic">
+		<img src = "http://www.spacex.com/sites/spacex/files/falcon_9_product_image2_0.jpg" height = "600" width ="100%"/>
+		</div>
+		<div class = "bg">
+		
 		<h1>
 			Why go to Mars?
 		</h1>
 		<div class = "image">
-		<img src = "http://i.telegraph.co.uk/multimedia/archive/02445/mars_2445397b.jpg" >
+		<img src = "http://i.telegraph.co.uk/multimedia/archive/02445/mars_2445397b.jpg" height="400" width ="650" >
 		</div>
 		<div class = "firstP">
 		<p>
@@ -27,14 +38,10 @@
 		make humanity a multiplanet species. Having a self-sustaining outpost on the Red Planet would serve as an insurance policy, making humanity's extinction 
 		unlikely even if something goes terribly awry here on Earth,
 		</p>
-		</div>
-		<div class = "secondP">
 		<p>
 		Colonizing Mars would have other benefits as well, he added; the effort would greatly advance science discoveries and technological capabilities, 
 		and it would help inspire and excite people from all walks of life and from all around the globe.
 		</p>
-		</div>
-		<div class = "thirdP">
 		<p>You could say that sending people to Mars is 'the next giant leap for mankind'. This mission will jumpstart massive developments in all 
 		kinds of areas, a few examples being in recycling, solar energy, food production and the advancement of medical technology. 
 		</p>
@@ -45,8 +52,9 @@
 		</h1>
 		</div>
 		<div class = "secondImg">
-		<img src = "http://www.21stcentech.com/wp-content/uploads/2014/06/SpaceX-on-Mars.jpg">
+		<img src = "http://www.21stcentech.com/wp-content/uploads/2014/06/SpaceX-on-Mars.jpg" height="400" width ="650">
 		</div>
+		<div class = "secondP">
 		<p>
 		Colonizing Mars won't be easy, but humanity can do it with a few key technological advances, Elon Musk said. Chief among them are fully and rapidly 
 		reusable rockets, and the ability to produce rocket propellant from local materials on the Red Planet.
@@ -60,14 +68,19 @@
 		water is stored in tanks that also function as radiation shielding. Storage of  waste that is not easily recycled is available in the settlement until more
 		technology is available.
 		</p>
+		</div>
 		<div class = "newDiv">
 		<br></br>
-		<h1>
+		<h1 id = "qH1">
+		<div id = "sat">
+		<img src ="http://www.mars-one.com/images/uploads/transporter.png" />
+		</div>
 		Qualifications
 		</h1>
 		<h3>
 		Age
 		</h3>
+		<div class = "thirdP">
 		<p>
 		The astronaut selection program will be open for applicants who are 18 years or older. This is the age by which children become legal adults in most 
 		countries in the world. Mars One believes it is important that applicants who enter the astronaut selection program are capable of entering into a legal 
@@ -75,12 +88,14 @@
 		There is not an upper age limit to apply for the astronaut selection program. If the applicant enjoys good health and he or she has all the other 
 		characteristics needed for the mission he or she has what it takes to apply.
 		</p>
+		</div>
 		<h3>
 		Medical and Physical Requirements
 		</h3>
 		<div class = "astroPic">
-		<img src = "http://i.dailymail.co.uk/i/pix/2014/01/08/article-0-1A7DDF1F00000578-741_634x398.jpg" />
+		<img src = "http://i.dailymail.co.uk/i/pix/2014/01/08/article-0-1A7DDF1F00000578-741_634x398.jpg" width ="550"/>
 		</div>
+		<div class = "lastP">
 		<p>
 		In general, normal medical and physiological health standards will be used. These standards are derived from evidence-based medicine, verified from 
 		clinical studies. 
@@ -109,25 +124,41 @@
 		</li>
 		</ul>
 		<p>
-		If you meet these requirements click the button
+		For more information follow these links: 
 		</p>
-		<button class = "button"type = "button" onclick = "clickB()">Info</button>
-		<p id = "thisP"></p>
+		<p>
+		<a href ="http://www.mars-one.com/faq/selection-and-preparation-of-the-astronauts/what-are-the-qualifications-to-apply">Qualifications</a>
+		<p></p>
+		<a href ="http://www.mars-one.com/faq/selection-and-preparation-of-the-astronauts/can-i-apply-to-become-an-astronaut">Apply</a>
+		</p>
+		</div>
 		</div>
 		<script>
-		function clickB(){
-			var text;
-			var link = "http://www.mars-one.com/faq/selection-and-preparation-of-the-astronauts/what-are-the-qualifications-to-apply"
-			text = "For more info on qualification click ";
-			var text2 = "Qualifications";
-			var text3 = "To learn how to apply click ";
-			var text4 = "Apply"
-			var link2 ="http://www.mars-one.com/faq/selection-and-preparation-of-the-astronauts/can-i-apply-to-become-an-astronaut";
-			document.getElementById("thisP").innerHTML = text + text2.link(link) + "<br>"+ text3 + text4.link(link2);
-			
-		}
+		var windw = this;
+
+$.fn.followTo = function ( pos ) {
+jQuery('#fixed_astro').hide();
+    var $this = this,
+        $window = $(windw);
+    
+    $window.scroll(function(e){
+        if ($window.scrollTop() > pos) {
+			jQuery('#fixed_astro').show();
+            $this.css({
+                position: 'fixed',
+                top: pos
+            });
+        } else {
+		jQuery('#fixed_astro').hide();
+            $this.css({
+                position: 'absolute',
+                top: 0
+            });
+        }
+    });
+};
+
+$('#fixed_astro').followTo(300);
 		</script>
-		
-		
 	</body>
 </html>

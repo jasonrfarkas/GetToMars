@@ -1,21 +1,59 @@
 body{
-	margin:75px;
 	background-color:#1a1a1a;
+	min-width: 1750px;
+
 }
+
 .bg{
+	background-image: url("http://cdn.mars-one.com/assets/images/stars-bg.jpg");
+
+	margin-right:100px;
+	margin-bottom:50px;
 	
+
 }
-.image{
-	float:left;
-	margin-right:15px;
-	margin-bottom:40px;
+.firstP{
+	border-style:solid;
+	border-width:1px;
+	border-color:#242424;
+	margin-left:625px;
+	margin-right:300px;
+	background-image: url("http://4.bp.blogspot.com/-J1A77dHUTO8/Vak2RfMWc3I/AAAAAAAADjw/cDriMlTTpEI/s1600/Pattern_backgrounds_vol_vol.01_4.jpg");
+	 box-shadow: 10px 5px 10px #373737;
 }
+.secondP{
+	border-style:solid;
+	border-width:1px;
+	border-color:#242424;
+	margin-left:625px;
+	margin-right:300px;
+	background-image: url("http://4.bp.blogspot.com/-J1A77dHUTO8/Vak2RfMWc3I/AAAAAAAADjw/cDriMlTTpEI/s1600/Pattern_backgrounds_vol_vol.01_4.jpg");
+	 box-shadow: 10px 5px 10px #373737;
+}
+.thirdP{
+	border-style:solid;
+	border-width:1px;
+	border-color:#242424;
+	margin-left:150px;
+	margin-right:875px;
+	background-image: url("http://4.bp.blogspot.com/-J1A77dHUTO8/Vak2RfMWc3I/AAAAAAAADjw/cDriMlTTpEI/s1600/Pattern_backgrounds_vol_vol.01_4.jpg");
+	 box-shadow: 10px 5px 10px #373737;
+}
+.lastP{
+	border-style:solid;
+	border-width:1px;
+	border-color:#242424;
+	margin-left:150px;
+	margin-right:875px;
+	background-image: url("http://4.bp.blogspot.com/-J1A77dHUTO8/Vak2RfMWc3I/AAAAAAAADjw/cDriMlTTpEI/s1600/Pattern_backgrounds_vol_vol.01_4.jpg");
+	 box-shadow: 10px 5px 10px #373737;
+}
+
 .firstP{
 	clear:right;
 }
 p{
 	color:white;
-	font-size: x-large;
 	text-align:left;
 	margin-right:100px;
 }
@@ -24,23 +62,40 @@ ul li{
 	font-size: x-large;
 	text-align:left;
 	margin-right:100px;
+	font-size: large;
 }
 h1{
-	color:orange;	
-    text-shadow: 1px 1px 1px #ccc;
+	color:white;	
+    text-shadow: 2px 1px 1px #ccc;
+	margin-left:150px;
+	margin-left:800px;
+	
 
 }
+#qH1{
+		color:white;	
+    text-shadow: 2px 1px 1px #ccc;
+	margin-left:150px;
+}
 h3{
-	color:orange;	
+	color:white;	
     text-shadow: 1px 1px 1px #ccc;
+	margin-left:150px;
 }
 .headerDiv{
 	clear:left;
+}
+.image{
+	float:left;
+	margin-right:15px;
+	margin-bottom:40px;
+	margin-left:150px;
 }
 .secondImg{
 	float:left;
 	margin-right: 15px;
 	margin-bottom:60pz;
+	margin-left:150px;
 }
 .newDiv{
 	clear:left;
@@ -55,20 +110,23 @@ a{
 
 .astroPic{
 	float:right;
-	margin-right:55px;
+	margin-right:300px;
 }
-.button {
-  padding: 10px 20px;
-  font-size: 20px;
-  text-align: center;
-  outline: none;
-  cursor: pointer;
-  color: #fff;
-  background-color: orange;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+.astroPic:hover{
+	background-color:red;	
 }
-.button:hover{
-	background-color:red;
+#sat{
+	float:right;
+	margin-right:300px;
+}
+#fixed_astro{
+	margin-left:1600px;
+	margin-top: 135px;
+	position:fixed;
+
+}
+#fixed_astro:hover{
+	
+	z-index:2;
+    transform: scale(1.2);
 }
