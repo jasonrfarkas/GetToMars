@@ -1,18 +1,24 @@
 body{
-	/*background-color:#1a1a1a;*/
+	background-color:#1a1a1a;
+	padding: 0;
+	margin: 0;
 }
 div.navDiv li{
 				text-decoration:none;
 				list-style-type: none
 			}
-div.navDiv{
-	height: 100px;
-	background-color: red;
-	
+
+.navDiv{
+	height: 50px;
+	width: 100%;
+	background-color: black;
 	background: -webkit-linear-gradient(rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rrgba(255,255,255,.12), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+    background: linear-gradient( rgba(255,255,255,.1), rgba(100,100,100,0)); /* Standard syntax (must be last) */
+    margin: 0;
+    padding: 0;
+
 }
 
 div.navDiv nav a{
@@ -21,20 +27,19 @@ div.navDiv nav a{
 	text-decoration:none;
 	float:right;
 	padding:10px;
-	margin-bottom:10px;
+	margin-bottom:0px;
+	margin-top: 0;
+
 }
 div.navDiv a:hover{
 	background-color:orange;
-	height: 50px;
+
 }
-div.navDiv a{
-	color:green;
-}
+
 div.navDiv nav{
-	margin-right:100px;
-	border: black;
-	border-style:solid;
-	margin-bottom:10px;
+	margin: 0px 100px 0px 0px;
+	/*border: solid black;*/
+	padding: 0px;
 }
 
 #footerPart1 {
@@ -77,4 +82,8 @@ div.navDiv nav{
 #footerPart2Inner{
 	margin: 0px auto;
 	width: 1000px;
+}
+
+#copyright{
+	float:right;
 }
