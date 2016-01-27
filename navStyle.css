@@ -26,3 +26,46 @@ div.navDiv nav{
 	border-style:solid;
 	margin-bottom:100px;
 }
+
+
+	#footerPart1 {
+		height: 50px;
+		background-color: rgba(33, 33, 36, 1);
+	}
+	#footerPart1 a{
+		color:white;
+		font-size:15px;
+		text-decoration:none;
+		float:right;
+		padding:5px;
+		margin-right: 5px;
+	}
+
+	#footerPart1Inner{
+		margin: 0px auto;
+		width: 1000px;
+	}
+
+	#footerPart1 a:hover{
+		/*background-color:orange;*/
+		text-decoration: underline;
+	}
+	#footerPart2 {
+		height: 20px;
+		background-color: rgba(21, 19, 27, 1);
+		color: white;
+	}
+
+	#footerPart2 a{
+		color: white;
+		text-decoration:none;
+	}
+
+	#footerPart2 a:hover{
+		text-decoration:underline;
+	}
+
+	#footerPart2Inner{
+		margin: 0px auto;
+		width: 1000px;
+	}
