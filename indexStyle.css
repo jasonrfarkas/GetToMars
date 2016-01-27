@@ -1,38 +1,96 @@
-	.fillerImage{
-			/*width: 15px;
-			height: 100px;
-			margin: 0;
-			font-size: 50px;*/
+.fillerImage{
+		/*width: 15px;
+		height: 100px;
+		margin: 0;
+		font-size: 50px;*/
 
-			 margin: 0;
-			 padding: 0;
-   			 border: 0px;
-   			 width: 100%;
-   			 min-width: 1000px;
+		 margin: 0;
+		 padding: 0;
+			 border: 0px;
+			 width: 100%;
+			 min-width: 1000px;
 
-		}
-
-	.fillerImage_jason_launch {
-			width: 100%;
-			height: 600px;
-			margin: 0;
-			padding: 0;
-			border: 0px;
-		}
-
-	#pageContent{
-		background-color: white;
-		height: 625px;
 	}
 
-	#divider {
-		height: 90px;
-	    background: -webkit-linear-gradient(rgba(0,100,0,.5), rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
-	    background: -o-linear-gradient(rgba(0,100,0,.5), rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
-	    background: -moz-linear-gradient( rgba(0,100,0,.5), rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
-	    background: linear-gradient( rgba(255,255,255,0), rgba(255,255,255,1)); /* Standard syntax (must be last) */
+.fillerImage_jason_launch {
+		width: 100%;
+		height: 575px;
+		margin: 0;
+		padding: 0;
+		border: 0px;
 	}
 
+#pageContent{
+	margin: 0 auto;
+	width: 1030px;
+	text-align: center;
+}
+#pageContent p, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+#pageContentHolder{
+	background-color: white;
+	height: 625px;
+	margin: 0;
+}
+
+#divider {
+	height: 90px;
+    background: -webkit-linear-gradient(rgba(255,255,255,.12), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255,255,255,.12), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( rgba(255,255,255,.12), rgba(255,255,255,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+
+    
+background: -webkit-linear-gradient(rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rrgba(255,255,255,.12), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+}
+
+.pictureBoxholder{
+	width: 310px;
+	height: 275px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0 15px;
+    display: inline-block;
+}
+.pictureBoxPicture img{
+
+	height: 200px;
+	padding: 10px;
+	margin: 0;
+}
+.pictureBoxText a{
+	text-decoration:none;
+	color: black;
+}
+.pictureBoxText a.lm{
+	text-decoration:none;
+	color: blue;
+}
+.pictureBoxText a:hover{
+	text-decoration:underline;
+}
+#pictureBoxMainHolder{
+	margin: 50px auto;
+	width: 1030;
+}
+
+/* RESPONSIVE ARROWS */
+[class^=arr-]{
+  border:       solid currentColor;
+  border-width: 0 .15em .15em 0;
+  display:      inline-block;
+  padding:      .2em;
+}
+.arr-right {transform:rotate(-45deg);}
+.arr-left  {transform:rotate(135deg);}
+.arr-up    {transform:rotate(-135deg);}
+.arr-down  {transform:rotate(45deg);}
 	
 
 
