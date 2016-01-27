@@ -1,21 +1,31 @@
 body{
-	background-color:#1a1a1a;
+	/*background-color:#1a1a1a;*/
 }
 div.navDiv li{
 				text-decoration:none;
 				list-style-type: none
 			}
-			
+div.navDiv{
+	height: 100px;
+	background-color: red;
+	
+	background: -webkit-linear-gradient(rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rrgba(255,255,255,.12), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgba(255,255,255,.12), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+}
+
 div.navDiv nav a{
 	color:white;
 	font-size:25px;
 	text-decoration:none;
 	float:right;
 	padding:10px;
-	margin-bottom:30px;
+	margin-bottom:10px;
 }
 div.navDiv a:hover{
 	background-color:orange;
+	height: 50px;
 }
 div.navDiv a{
 	color:green;
@@ -24,48 +34,47 @@ div.navDiv nav{
 	margin-right:100px;
 	border: black;
 	border-style:solid;
-	margin-bottom:100px;
+	margin-bottom:10px;
 }
 
+#footerPart1 {
+	height: 50px;
+	background-color: rgba(33, 33, 36, 1);
+}
+#footerPart1 a{
+	color:white;
+	font-size:15px;
+	text-decoration:none;
+	float:right;
+	padding:5px;
+	margin-right: 5px;
+}
 
-	#footerPart1 {
-		height: 50px;
-		background-color: rgba(33, 33, 36, 1);
-	}
-	#footerPart1 a{
-		color:white;
-		font-size:15px;
-		text-decoration:none;
-		float:right;
-		padding:5px;
-		margin-right: 5px;
-	}
+#footerPart1Inner{
+	margin: 0px auto;
+	width: 1000px;
+}
 
-	#footerPart1Inner{
-		margin: 0px auto;
-		width: 1000px;
-	}
+#footerPart1 a:hover{
+	/*background-color:orange;*/
+	text-decoration: underline;
+}
+#footerPart2 {
+	height: 20px;
+	background-color: rgba(21, 19, 27, 1);
+	color: white;
+}
 
-	#footerPart1 a:hover{
-		/*background-color:orange;*/
-		text-decoration: underline;
-	}
-	#footerPart2 {
-		height: 20px;
-		background-color: rgba(21, 19, 27, 1);
-		color: white;
-	}
+#footerPart2 a{
+	color: white;
+	text-decoration:none;
+}
 
-	#footerPart2 a{
-		color: white;
-		text-decoration:none;
-	}
+#footerPart2 a:hover{
+	text-decoration:underline;
+}
 
-	#footerPart2 a:hover{
-		text-decoration:underline;
-	}
-
-	#footerPart2Inner{
-		margin: 0px auto;
-		width: 1000px;
-	}
+#footerPart2Inner{
+	margin: 0px auto;
+	width: 1000px;
+}
