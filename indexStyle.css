@@ -40,7 +40,7 @@
 
 #pageContent{
 	margin: 0 auto;
-	width: 1030px;
+	width: 1050px;
 	text-align: center;
 }
 #pageContent p, h1, h2, h3, h4, h5, h6{
@@ -94,7 +94,7 @@
 }
 #pictureBoxMainHolder{
 	margin: 50px auto;
-	width: 1030;
+	width: 1050;
 }
 
 /* RESPONSIVE ARROWS */
