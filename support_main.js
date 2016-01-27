@@ -13,6 +13,7 @@ $(document).ready(function(){
             var modal_height = modal.height();
             var modal_height_offset = (page_height - modal_height) / 2;
             modal.css("margin-top", modal_height_offset);
+			
     }
 
 })

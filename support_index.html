@@ -27,7 +27,7 @@
         <h3>Subscribe to our weekly newsletter! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste vitae porro incidunt quidem, aspernatur natus delectus amet.</h3>
         <input type="text" id="email-input">
         <br>
-        <input type="button" value="Sign me up" id="email-submit">
+        <input type="button" value="Sign me up" id="email-submit" onclick = "buttonPressed();">
         <img src="" id="lightbox-image">
     </div>
 
@@ -66,5 +66,11 @@
 		<h2>Call us at: 123-456-7890</h2>
 		<h2>Email us at: info@get2mars.com</h2>
 	</div>
+	<script>
+	function buttonPressed(){	
+	    $(".lightbox-outer").hide();
+            $("#modal").hide();
+}
+	</script>
 </body>
 </html>
